@@ -4,5 +4,8 @@ language: generic
 services:
   - docker
 
+os: linux
+dist: bionic
+
 script:
   - make build.image
